@@ -66,7 +66,7 @@ print index_lines
 #this part is really difficult to implement like i have formed a basic almost foolproof idea as to how to consider all cases using both the face and place values in the 2 related lists lengths and previous_line
 previous_line=[6, 8]
 for ithlinenumber in range(numoflines-1):
-    currentline=index_lines[ithlinenumber]
+    currentline=index_lines[ithlinenumber]  # ith line number is here 
     for i in previous_line:
         for j in currentline:
             if j!=i and j!=i+1 and j!=i-1:
